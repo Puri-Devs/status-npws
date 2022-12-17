@@ -1,5 +1,5 @@
 function showWebsieStatus() {
-    var url = 'http://npws.cloud/';
+    var url = 'https://npws.cloud/';
     var req = new XMLHttpRequest();
     req.open('HEAD', url, false);
     req.onerror = function () {
