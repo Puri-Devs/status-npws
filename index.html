@@ -6,11 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="https://i.imgur.com/2vLJzvv.png" type="image/x-icon">
     <title>NPWS servers status</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="assets/main.css">
 </head>
-<body>
+<body onload="showWebsieStatus()">
     <section>
         <h1>Puri servers are unreachable</h1>
-    </section>
+        <div class="status">
+            <table>
+                <tr>
+                    <td>
+                        <h2>Website:</h2>
+                    </td>
+                    <td>
+                        <h2 id="WebsiteStatus">Checking...</h2>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    <script src="assets/main.js"></script>
 </body>
 </html>

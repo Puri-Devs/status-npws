@@ -13,3 +13,12 @@ body {
     width: 100vw;
 }
 
+/* center status class */
+.status {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
